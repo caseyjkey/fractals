@@ -1,5 +1,11 @@
+import sys
 import turtle
 PROGNAME = 'Sierpinski Carpet'
+
+argv = sys.argv
+
+depth = int(argv[1])
+size = int(argv[2])
 
 myPen = turtle.Turtle()
 myPen.speed(1000)
@@ -62,3 +68,4 @@ def carpet(points, depth, size):
   
    
 carpet((-50, -50), depth, size) 
+input()

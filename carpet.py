@@ -68,4 +68,4 @@ def carpet(points, depth, size):
   
    
 carpet((-50, -50), depth, size) 
-input()
+input("Press enter to exit")
